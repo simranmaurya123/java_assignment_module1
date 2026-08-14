@@ -29,10 +29,7 @@ Welcome to the **Java Module 1 Assignment Repository**! This repository contains
 
 ## 🚀 Overview
 
-This collection is designed specifically for academic coursework and viva evaluations. All programs follow simple design principles:
-- **No external libraries**: Standard Java SE APIs only (`java.util.Scanner`, standard loops, arrays).
-- **Self-contained**: Each question resides in its own folder and can be compiled and executed independently.
-- **Easy to explain**: Clean code structure with clear variable naming and concise output.
+This repository contains module question 
 
 ---
 
