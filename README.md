@@ -193,8 +193,6 @@ javac -version
    java q1
    ```
 
-*(Replace `Question1` and `q1` with the desired question folder and file name).*
-
----
+```
 
 
