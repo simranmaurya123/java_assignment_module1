@@ -5,7 +5,7 @@
 ![Questions](https://img.shields.io/badge/Total%20Questions-50-blue.svg?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
-Welcome to the **Java Module 1 Assignment Repository**! This repository contains clean, beginner-friendly, and well-structured Java implementations for **50 assignment questions** covering foundational Java concepts, Object-Oriented Programming (OOP), Data Structures, Controls, Operators, and String Manipulation.
+**Java Module 1 Assignment Repository**! This repository contains clean, beginner-friendly, and well-structured Java implementations for **50 assignment questions** 
 
 ---
 
@@ -29,10 +29,7 @@ Welcome to the **Java Module 1 Assignment Repository**! This repository contains
 
 ## 🚀 Overview
 
-This collection is designed specifically for academic coursework and viva evaluations. All programs follow simple design principles:
-- **No external libraries**: Standard Java SE APIs only (`java.util.Scanner`, standard loops, arrays).
-- **Self-contained**: Each question resides in its own folder and can be compiled and executed independently.
-- **Easy to explain**: Clean code structure with clear variable naming and concise output.
+This repository contains module question 
 
 ---
 
@@ -40,8 +37,6 @@ This collection is designed specifically for academic coursework and viva evalua
 
 - **50 Practical Questions**: Complete coverage of Java fundamentals.
 - **Modular Directory Layout**: Organized systematically from `Question1/` to `Question50/`.
-- **Viva Ready**: Simple logic patterns that are straightforward to explain to instructors during practical examinations.
-- **Cross-Platform Compatibility**: Tested and compatible with Java 8+ across Windows, macOS, and Linux.
 
 ---
 
@@ -193,37 +188,6 @@ javac -version
    java q1
    ```
 
-*(Replace `Question1` and `q1` with the desired question folder and file name).*
+```
 
----
 
-## 💡 Viva & Exam Quick Reference Guide
-
-> [!TIP]
-> Use these quick summaries when reviewing for oral viva or practical examinations:
-
-- **Access Modifiers**:
-  - `private`: Access restricted within the same class only.
-  - `default` (package-private): Accessible inside the same package.
-  - `protected`: Accessible inside the same package and by child subclasses in other packages.
-  - `public`: Accessible from anywhere in the application.
-
-- **`==` vs `.equals()`**:
-  - `==`: Compares object memory references (addresses).
-  - `.equals()`: Compares actual text content contained inside objects.
-
-- **Method Overloading vs Overriding**:
-  - *Overloading*: Same method name, different parameter signature in the **same class** (Compile-time polymorphism).
-  - *Overriding*: Same method signature in parent and **child class** (Runtime polymorphism).
-
-- **Recursion Base Condition**:
-  - Every recursive function MUST have a stopping base condition to avoid infinite loops and `StackOverflowError`.
-
-- **String Immutability**:
-  - String objects cannot be changed once created in memory. Any modification generates a new String instance in the String Constant Pool or Heap memory.
-
----
-
-<p center>
-  <i>Crafted for Java Module 1 Practical Assignment & Viva Preparation</i>
-</p>
