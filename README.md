@@ -197,33 +197,5 @@ javac -version
 
 ---
 
-## 💡 Viva & Exam Quick Reference Guide
-
-> [!TIP]
-> Use these quick summaries when reviewing for oral viva or practical examinations:
-
-- **Access Modifiers**:
-  - `private`: Access restricted within the same class only.
-  - `default` (package-private): Accessible inside the same package.
-  - `protected`: Accessible inside the same package and by child subclasses in other packages.
-  - `public`: Accessible from anywhere in the application.
-
-- **`==` vs `.equals()`**:
-  - `==`: Compares object memory references (addresses).
-  - `.equals()`: Compares actual text content contained inside objects.
-
-- **Method Overloading vs Overriding**:
-  - *Overloading*: Same method name, different parameter signature in the **same class** (Compile-time polymorphism).
-  - *Overriding*: Same method signature in parent and **child class** (Runtime polymorphism).
-
-- **Recursion Base Condition**:
-  - Every recursive function MUST have a stopping base condition to avoid infinite loops and `StackOverflowError`.
-
-- **String Immutability**:
-  - String objects cannot be changed once created in memory. Any modification generates a new String instance in the String Constant Pool or Heap memory.
-
----
-
-<p center>
-  <i>Crafted for Java Module 1 Practical Assignment & Viva Preparation</i>
+gnment & Viva Preparation</i>
 </p>
