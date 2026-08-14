@@ -40,8 +40,6 @@ This collection is designed specifically for academic coursework and viva evalua
 
 - **50 Practical Questions**: Complete coverage of Java fundamentals.
 - **Modular Directory Layout**: Organized systematically from `Question1/` to `Question50/`.
-- **Viva Ready**: Simple logic patterns that are straightforward to explain to instructors during practical examinations.
-- **Cross-Platform Compatibility**: Tested and compatible with Java 8+ across Windows, macOS, and Linux.
 
 ---
 
