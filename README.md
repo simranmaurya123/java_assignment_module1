@@ -1,474 +1,229 @@
-# Java Module 1 Assignment – Antigravity Instructions
+# ☕ Java Module 1 Assignment Solutions
 
-## Objective
+![Java](https://img.shields.io/badge/Java-8%2B-orange.svg?style=for-the-badge&logo=openjdk)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg?style=for-the-badge)
+![Questions](https://img.shields.io/badge/Total%20Questions-50-blue.svg?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
-Complete all the Java programming questions given in the uploaded assignment PDF.
-
-The code is for a **college assignment**, so keep everything **simple, beginner-friendly, and easy to explain in a viva**.
-
-## Important Coding Rules
-
-1. Use **Java only**.
-2. Use basic Java concepts wherever possible.
-3. Do NOT use advanced libraries, frameworks, or complicated techniques.
-4. Keep the code easy enough for a **beginner Java student to understand and explain**.
-5. Prefer simple `Scanner`, loops, `if-else`, `switch`, arrays, classes, and methods.
-6. Do not unnecessarily use advanced concepts such as:
-
-   * Streams
-   * Lambda expressions
-   * Generics unless required
-   * Collections unless required
-   * Complex exception handling
-   * Multithreading
-   * Design patterns except where specifically asked
-7. Each question should have a **separate Java program**.
-8. Use simple and meaningful class names.
-9. Add short comments only where they help explain the code.
-10. Do not make the code unnecessarily long.
-11. Do not combine multiple assignment questions into one program.
-12. The output should be simple and clearly demonstrate that the question has been solved.
-
-## For Every Question
-
-For each question, provide:
-
-### 1. Question
-
-Write the original assignment question.
-
-### 2. Concept
-
-Mention the Java concept being demonstrated in one or two lines.
-
-### 3. Code
-
-Provide the complete Java program.
-
-### 4. Sample Output
-
-Show a simple example of what the program produces.
-
-### 5. Short Explanation
-
-Explain the important parts of the code in very simple language.
-
-The explanation should be something I can understand and explain to my teacher during a viva.
+Welcome to the **Java Module 1 Assignment Repository**! This repository contains clean, beginner-friendly, and well-structured Java implementations for **50 assignment questions** covering foundational Java concepts, Object-Oriented Programming (OOP), Data Structures, Controls, Operators, and String Manipulation.
 
 ---
 
-# Questions to Complete
+## 📌 Table of Contents
 
-## A. Access Modifiers and Basic Java Concepts
-
-### 1. Access Modifiers
-
-Explain and implement the concept of access modifiers in Java.
-
-Demonstrate:
-
-* `public`
-* `private`
-* `protected`
-* default
-
-Keep the example very simple.
-
-### 2. Final Keyword
-
-Show examples of the `final` keyword for:
-
-* variables
-* methods
-* classes
-
-Use separate small examples if that makes the concept easier to understand.
-
-### 3. StringBuilder
-
-Write a program using Java's `StringBuilder` for efficient string operations.
-
-Demonstrate simple operations such as:
-
-* append
-* insert
-* reverse
-
-### 4. String Immutability
-
-Write a simple program demonstrating that Java's `String` class is immutable.
-
-Clearly show that modifying a String creates a new String rather than changing the original object.
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Repository Structure](#-repository-structure)
+- [Complete Question Directory](#-complete-question-directory)
+  - [Section A: Access Modifiers & Core Java Concepts](#section-a-access-modifiers--core-java-concepts)
+  - [Section B: Data Types, Control Flow & Recursion](#section-b-data-types-control-flow--recursion)
+  - [Section C: Arrays, Searching & Sorting](#section-c-arrays-searching--sorting)
+  - [Section D: Operators & Precedence](#section-d-operators--precedence)
+  - [Section E: Object-Oriented Programming (OOP)](#section-e-object-oriented-programming-oop)
+  - [Section F: Inheritance, Polymorphism & Abstract Classes](#section-f-inheritance-polymorphism--abstract-classes)
+  - [Section G: String Manipulation](#section-g-string-manipulation)
+- [How to Compile and Run](#-how-to-compile-and-run)
+- [Viva & Exam Quick Reference Guide](#-viva--exam-quick-reference-guide)
 
 ---
 
-# B. Data Types, Control Statements and Identifiers
+## 🚀 Overview
 
-### 5. Primitive Data Types
-
-Write a program to declare variables of all primitive data types in Java and print their values.
-
-Important:
-Java local variables do not have default values, so if demonstrating default values, use **class/instance variables**.
-
-Demonstrate:
-
-* byte
-* short
-* int
-* long
-* float
-* double
-* char
-* boolean
-
-### 6. Control Statements
-
-Write a program demonstrating:
-
-* if-else
-* switch
-* for loop
-
-Keep the example simple.
-
-### 7. Prime Number Using While Loop
-
-Write a program to check whether a number is prime using a `while` loop.
-
-Take the number from the user using `Scanner`.
-
-### 8. Factorial Using Recursion
-
-Write a program to calculate the factorial of a number using recursion.
-
-Explain the base condition simply.
-
-### 9. Valid and Invalid Identifiers
-
-Create a program to identify valid and invalid Java identifiers.
-
-Since invalid identifiers cannot be declared directly in Java code, demonstrate this using strings and simple validation rules.
-
-Explain rules such as:
-
-* cannot start with a digit
-* cannot contain spaces
-* cannot use Java keywords
-* can contain letters, digits, `_` and `$`
+This collection is designed specifically for academic coursework and viva evaluations. All programs follow simple design principles:
+- **No external libraries**: Standard Java SE APIs only (`java.util.Scanner`, standard loops, arrays).
+- **Self-contained**: Each question resides in its own folder and can be compiled and executed independently.
+- **Easy to explain**: Clean code structure with clear variable naming and concise output.
 
 ---
 
-# C. Arrays and Basic Programs
+## ✨ Key Features
 
-### 10. Largest and Smallest
-
-Write a program to find the largest and smallest numbers in an array.
-
-### 11. Odd or Even
-
-Write a program to check whether a number is odd or even.
-
-### 12. Largest of Three Numbers
-
-Write a program to take three numbers from the user and find the largest.
-
-### 13. Factorial Using Recursion
-
-Write another simple program to calculate factorial using recursion.
-
-Keep it separate from Question 8 because each assignment question should have its own program.
-
-### 14. Palindrome
-
-Write a program to check whether a given string or number is a palindrome.
-
-Use a simple approach.
-
-### 15. Fibonacci Series
-
-Write a program to generate the first `n` terms of the Fibonacci series.
-
-### 16. Prime Number
-
-Write a program to check whether a number is prime.
-
-Use a simple approach.
-
-### 17. Sum of Array
-
-Write a program to find the sum of all elements in an array.
-
-### 18. Reverse Array
-
-Write a program to reverse the elements of an array.
-
-### 19. Matrix Addition and Multiplication
-
-Write a Java program to perform:
-
-* matrix addition
-* matrix multiplication
-
-Use small matrices and simple nested loops.
-
-### 20. Bubble Sort
-
-Write a program to sort an array using the bubble sort algorithm.
-
-Do not use `Arrays.sort()`.
-
-### 21. 2D Array
-
-Create a program demonstrating a 2D array and print its elements.
-
-### 22. Binary Search
-
-Write a program to search for an element in a **sorted array** using binary search.
-
-Explain the `low`, `high`, and `mid` variables simply.
-
-### 23. Remove Duplicate Elements
-
-Write a program to remove duplicate elements from an array.
-
-Use a beginner-friendly approach.
+- **50 Practical Questions**: Complete coverage of Java fundamentals.
+- **Modular Directory Layout**: Organized systematically from `Question1/` to `Question50/`.
+- **Viva Ready**: Simple logic patterns that are straightforward to explain to instructors during practical examinations.
+- **Cross-Platform Compatibility**: Tested and compatible with Java 8+ across Windows, macOS, and Linux.
 
 ---
 
-# D. Operators
-
-### 24. Arithmetic, Relational and Logical Operators
-
-Write a program demonstrating:
-
-* arithmetic operators
-* relational operators
-* logical operators
-
-Show simple examples.
-
-### 25. == vs equals()
-
-Create a program showing the difference between `==` and `.equals()` when comparing Strings.
-
-Explain why the results can be different.
-
-### 26. Ternary Operator
-
-Write a simple program demonstrating the ternary operator.
-
-Example:
-Check whether a number is positive/negative or even/odd.
-
-### 27. Bitwise Operators
-
-Write a program demonstrating basic bitwise operations:
-
-* `&`
-* `|`
-* `^`
-* `~`
-* `<<`
-* `>>`
-
-Keep the numbers small.
-
-### 28. Operator Precedence
-
-Write a program demonstrating operator precedence in Java.
-
-Use simple arithmetic expressions and explain which operation is performed first.
-
----
-
-# E. Classes and Constructors
-
-### 29. Constructor Overloading
-
-Create a class with multiple constructors.
-
-Demonstrate:
-
-* default constructor
-* parameterized constructor
-* another parameterized constructor with different parameters
-
-Explain constructor overloading.
-
-### 30. Copy Constructor
-
-Implement a program demonstrating a copy constructor in Java.
-
-Since Java does not have a built-in copy constructor like some languages, create a constructor that receives an object of the same class and copies its values.
-
-### 31. Parameterized Constructor
-
-Create a program that initializes class fields using a parameterized constructor.
-
-### 32. Static and Non-Static Methods
-
-Write a program demonstrating:
-
-* static method
-* non-static method
-
-Explain how they are called.
-
-### 33. Singleton Class
-
-Implement a simple Singleton class in Java.
-
-Keep the implementation as simple as possible and explain why only one object is created.
-
----
-
-# F. Inheritance and Method Overriding
-
-### 34. Multilevel Inheritance
-
-Write a program demonstrating multilevel inheritance.
-
-Use a simple example such as:
-
-Animal → Dog → Puppy
-
-or
-
-Grandparent → Parent → Child
-
-### 35. Method Overriding and super
-
-Create a program demonstrating:
-
-* method overriding
-* `super` keyword
-* calling the parent class method using `super`
-
-Keep the example simple.
-
-### 36. Abstract Class
-
-Implement an abstract class and override its methods in a subclass.
-
-Use a simple example such as Shape, Animal, or Vehicle.
-
-### 37. Final Class and Final Method
-
-Write a program demonstrating:
-
-* final class
-* final method
-
-Explain what cannot be changed or overridden.
-
-### 38. Runtime Polymorphism
-
-Create a program demonstrating runtime polymorphism using dynamic method dispatch.
-
-Use a parent class reference pointing to a child class object.
-
-Keep the example very simple.
-
----
-
-# G. String Class and Operations
-
-### 39. Reverse String
-
-Write a program to reverse a string **without using a built-in reverse method**.
-
-Use a loop.
-
-### 40. Character Frequency
-
-Write a program to count the frequency of each character in a String.
-
-Keep the implementation beginner-friendly.
-
-### 41. String Immutability
-
-Write another simple program demonstrating String immutability.
-
-Clearly show the original String and the new String.
-
-### 42. String Palindrome
-
-Create a program to check whether a given String is a palindrome.
-
-Do not use complicated techniques.
-
-### 43. Split String
-
-Implement a program to split a String into words and print each word on a new line.
-
----
-
-# Code Style
-
-Use this general structure wherever appropriate:
-
-```java
-import java.util.Scanner;
-
-public class Example {
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        // Simple code here
-
-        sc.close();
-    }
-}
-```
-
-Do not force `Scanner` into programs where user input is not necessary.
-
-## Naming
-
-Use simple names such as:
-
-* `PrimeNumber`
-* `Factorial`
-* `Palindrome`
-* `ArraySum`
-* `BubbleSort`
-* `Student`
-* `Animal`
-* `Dog`
-
-Avoid unnecessarily complicated names.
-
-## Output
-
-Keep output simple, for example:
+## 📂 Repository Structure
 
 ```text
-Enter a number: 7
-7 is a prime number.
+simran_java_assignment/
+├── Question1/
+│   └── q1.java
+├── Question2/
+│   └── q2.java
+├── ...
+├── Question50/
+│   └── q50.java
+└── README.md
 ```
 
-## Explanations
+---
 
-Use beginner-level language.
+## 📋 Complete Question Directory
 
-For example, instead of:
+### Section A: Access Modifiers & Core Java Concepts
 
-> "The recursive function maintains a call stack until the termination condition is satisfied."
+| Q# | Topic / Concept | Source File |
+|:---|:---|:---|
+| **Q1** | Encapsulation & Getters/Setters | [`Question1/q1.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question1/q1.java) |
+| **Q8** | Access Modifiers (`public`, `private`, `protected`, default) | [`Question8/q8.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question8/q8.java) |
+| **Q9** | `final` Keyword (Variables, Methods, Classes) | [`Question9/q9.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question9/q9.java) |
+| **Q10** | `StringBuilder` Operations (`append`, `insert`, `reverse`) | [`Question10/q10.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question10/q10.java) |
+| **Q11** | String Immutability Demonstration | [`Question11/q11.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question11/q11.java) |
+| **Q16** | Valid & Invalid Java Identifiers | [`Question16/q16.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question16/q16.java) |
 
-write:
+---
 
-> "The method keeps calling itself with a smaller number until it reaches 1. This is the stopping condition."
+### Section B: Data Types, Control Flow & Recursion
 
-## Important
+| Q# | Topic / Concept | Source File |
+|:---|:---|:---|
+| **Q12** | Primitive Data Types & Default Class Member Values | [`Question12/q12.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question12/q12.java) |
+| **Q13** | Control Statements (`if-else`, `switch`, `for` loop) | [`Question13/q13.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question13/q13.java) |
+| **Q14** | Check Prime Number using `while` Loop & `Scanner` | [`Question14/q14.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question14/q14.java) |
+| **Q15** | Calculate Factorial using Recursion | [`Question15/q15.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question15/q15.java) |
+| **Q18** | Check Odd or Even Number | [`Question18/q18.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question18/q18.java) |
+| **Q19** | Find Largest of Three Numbers | [`Question19/q19.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question19/q19.java) |
+| **Q20** | Standalone Recursion Factorial Program | [`Question20/q20.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question20/q20.java) |
+| **Q22** | First `n` Terms of Fibonacci Series | [`Question22/q22.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question22/q22.java) |
+| **Q23** | Basic Prime Number Check | [`Question23/q23.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question23/q23.java) |
 
-Do not try to make the project look like professional software.
+---
 
-This is a **college Java assignment**, so the priority is:
+### Section C: Arrays, Searching & Sorting
 
-**Simple code → Correct output → Easy explanation → Easy viva**
+| Q# | Topic / Concept | Source File |
+|:---|:---|:---|
+| **Q17** | Find Largest & Smallest Element in an Array | [`Question17/q17.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question17/q17.java) |
+| **Q24** | Sum of All Elements in an Array | [`Question24/q24.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question24/q24.java) |
+| **Q25** | Reverse Elements of an Array | [`Question25/q25.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question25/q25.java) |
+| **Q26** | Matrix Addition & Matrix Multiplication | [`Question26/q26.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question26/q26.java) |
+| **Q27** | Bubble Sort Algorithm | [`Question27/q27.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question27/q27.java) |
+| **Q28** | 2D Array Traversal and Operations | [`Question28/q28.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question28/q28.java) |
+| **Q29** | Binary Search in a Sorted Array | [`Question29/q29.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question29/q29.java) |
+| **Q30** | Remove Duplicate Elements from an Array | [`Question30/q30.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question30/q30.java) |
 
-Do not add unnecessary GUI, database, Maven, Spring, packages, advanced OOP patterns, or external libraries.
+---
 
-Create all programs in a clean folder structure and make sure every program can be compiled and run independently.
+### Section D: Operators & Precedence
+
+| Q# | Topic / Concept | Source File |
+|:---|:---|:---|
+| **Q31** | Arithmetic, Relational & Logical Operators | [`Question31/q31.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question31/q31.java) |
+| **Q32** | Difference between `==` and `.equals()` | [`Question32/q32.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question32/q32.java) |
+| **Q33** | Ternary Operator Demonstration | [`Question33/q33.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question33/q33.java) |
+| **Q34** | Bitwise Operators (`&`, `|`, `^`, `~`, `<<`, `>>`) | [`Question34/q34.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question34/q34.java) |
+| **Q35** | Operator Precedence in Java Expressions | [`Question35/q35.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question35/q35.java) |
+
+---
+
+### Section E: Object-Oriented Programming (OOP)
+
+| Q# | Topic / Concept | Source File |
+|:---|:---|:---|
+| **Q36** | Constructor Overloading | [`Question36/q36.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question36/q36.java) |
+| **Q37** | Copy Constructor Pattern in Java | [`Question37/q37.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question37/q37.java) |
+| **Q38** | Parameterized Constructors | [`Question38/q38.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question38/q38.java) |
+| **Q39** | Static vs. Non-Static Methods | [`Question39/q39.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question39/q39.java) |
+| **Q40** | Singleton Pattern Implementation | [`Question40/q40.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question40/q40.java) |
+
+---
+
+### Section F: Inheritance, Polymorphism & Abstract Classes
+
+| Q# | Topic / Concept | Source File |
+|:---|:---|:---|
+| **Q2** | Basic Inheritance & Method Calls | [`Question2/q2.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question2/q2.java) |
+| **Q3** | Interface Implementation (`Vehicle` interface) | [`Question3/q3.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question3/q3.java) |
+| **Q4** | Method Overloading vs Method Overriding | [`Question4/q4.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question4/q4.java) |
+| **Q5** | Single Inheritance (`Animal` -> `Dog`) | [`Question5/q5.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question5/q5.java) |
+| **Q6** | Multiple Inheritance via Interfaces | [`Question6/q6.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question6/q6.java) |
+| **Q7** | Accessing Parent Members via `super` | [`Question7/q7.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question7/q7.java) |
+| **Q41** | Multilevel Inheritance (`Animal` -> `Dog` -> `Puppy`) | [`Question41/q41.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question41/q41.java) |
+| **Q42** | Method Overriding & `super` Method Calling | [`Question42/q42.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question42/q42.java) |
+| **Q43** | Abstract Classes & Abstract Methods | [`Question43/q43.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question43/q43.java) |
+| **Q44** | `final` Class and `final` Method Rules | [`Question44/q44.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question44/q44.java) |
+| **Q45** | Runtime Polymorphism / Dynamic Method Dispatch | [`Question45/q45.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question45/q45.java) |
+
+---
+
+### Section G: String Manipulation
+
+| Q# | Topic / Concept | Source File |
+|:---|:---|:---|
+| **Q21** | Palindrome String Check | [`Question21/q21.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question21/q21.java) |
+| **Q46** | Reverse String without Built-in Reverse Method | [`Question46/q46.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question46/q46.java) |
+| **Q47** | Frequency of Each Character in a String | [`Question47/q47.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question47/q47.java) |
+| **Q48** | Immutability Verification (`String.concat()`) | [`Question48/q48.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question48/q48.java) |
+| **Q49** | Case-Insensitive Palindrome String Check | [`Question49/q49.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question49/q49.java) |
+| **Q50** | Split String into Words (`String.split()`) | [`Question50/q50.java`](file:///c:/Users/Arushi/OneDrive/Documents/simran_java_assignment/Question50/q50.java) |
+
+---
+
+## 🛠 How to Compile and Run
+
+### Prerequisites
+Make sure JDK (Java Development Kit) version 8 or higher is installed and added to your system environment variables. You can verify your installation by running:
+```bash
+java -version
+javac -version
+```
+
+### Running via Terminal / Command Prompt
+
+1. Open your terminal and navigate to the project directory:
+   ```bash
+   cd simran_java_assignment
+   ```
+
+2. Move into any specific question directory:
+   ```bash
+   cd Question1
+   ```
+
+3. Compile the Java source file:
+   ```bash
+   javac q1.java
+   ```
+
+4. Execute the compiled byte-code:
+   ```bash
+   java q1
+   ```
+
+*(Replace `Question1` and `q1` with the desired question folder and file name).*
+
+---
+
+## 💡 Viva & Exam Quick Reference Guide
+
+> [!TIP]
+> Use these quick summaries when reviewing for oral viva or practical examinations:
+
+- **Access Modifiers**:
+  - `private`: Access restricted within the same class only.
+  - `default` (package-private): Accessible inside the same package.
+  - `protected`: Accessible inside the same package and by child subclasses in other packages.
+  - `public`: Accessible from anywhere in the application.
+
+- **`==` vs `.equals()`**:
+  - `==`: Compares object memory references (addresses).
+  - `.equals()`: Compares actual text content contained inside objects.
+
+- **Method Overloading vs Overriding**:
+  - *Overloading*: Same method name, different parameter signature in the **same class** (Compile-time polymorphism).
+  - *Overriding*: Same method signature in parent and **child class** (Runtime polymorphism).
+
+- **Recursion Base Condition**:
+  - Every recursive function MUST have a stopping base condition to avoid infinite loops and `StackOverflowError`.
+
+- **String Immutability**:
+  - String objects cannot be changed once created in memory. Any modification generates a new String instance in the String Constant Pool or Heap memory.
+
+---
+
+<p center>
+  <i>Crafted for Java Module 1 Practical Assignment & Viva Preparation</i>
+</p>
