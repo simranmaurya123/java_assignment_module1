@@ -5,7 +5,7 @@
 ![Questions](https://img.shields.io/badge/Total%20Questions-50-blue.svg?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
-Welcome to the **Java Module 1 Assignment Repository**! This repository contains clean, beginner-friendly, and well-structured Java implementations for **50 assignment questions** covering foundational Java concepts, Object-Oriented Programming (OOP), Data Structures, Controls, Operators, and String Manipulation.
+**Java Module 1 Assignment Repository**! This repository contains clean, beginner-friendly, and well-structured Java implementations for **50 assignment questions** 
 
 ---
 
